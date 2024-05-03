@@ -14,7 +14,8 @@
 
 import numpy as _np
 import vegas as _vegas
-from .sysmsg import FlagError
+#from .sysmsg import FlagError
+from snorer.sysmsg import FlagError
 from .constant import constant
 from .galDensity import galacticAreaDensityFit,galacticAreaDensity,cosmicAgeFit
 from .galMassFunction import dnG,_E,rhoDotSFR
